@@ -22,17 +22,10 @@ export const metadata = {
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
-
-  // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();
   }
-
-  // Enable static rendering
   setRequestLocale(locale);
-
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   const dir = locale === 'en' ? 'ltr' : 'rtl';
