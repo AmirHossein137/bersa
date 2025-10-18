@@ -1,6 +1,4 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "blog" : "blog"
-  }
+  "HomePage": { "title": "Home", "intro": "Welcome to our website.", "blog": "Blog" },
+  "Blog": { "title": "Blog", "description": "Read the latest posts here." }
 }
