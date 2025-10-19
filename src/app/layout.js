@@ -1,6 +1,7 @@
 import './globals.css';
 import ClientIntlProvider from '@/components/ClientIntlProvider';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import TabFirstLoad from '@/components/TabFirstLoad';
 import {getLocale, getMessages} from 'next-intl/server';
 
 export const metadata = {
@@ -19,6 +20,7 @@ export default async function RootLayout({children}) {
   return (
     <html lang={locale} dir={getDir(locale)} suppressHydrationWarning>
       <body>
+        <TabFirstLoad />
         <ClientIntlProvider locale={locale} messages={messages}>
           <div style={{padding: 16}}>
             <LanguageSwitcher />
