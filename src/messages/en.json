@@ -1,6 +1,12 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "blog" : "blog"
+  "Header": {
+    "search": "Search",
+    "login": "Login and registration",
+    "productCategories": "Product Categories",
+    "services": "Services",
+    "customerGuide": "Customer Guide",
+    "AboutBersa": "About Bersa",
+    "educationalMaterials": "Educational Materials",
+    "becomeAseller": "Become A seller"
   }
 }

@@ -1,6 +1,12 @@
 {
-  "HomePage": {
-    "title": "مرحبا بالعالم",
-    "blog" : "مدونة"
+  "Header": {
+    "search": "يبحث",
+    "login": "تسجيل الدخول والتسجيل",
+    "productCategories": "فئات المنتجات",
+    "services": "خدمات",
+    "customerGuide": "دليل العملاء",
+    "AboutBersa": "نبذة عن بورصة",
+    "educationalMaterials": "المواد التعليمية",
+    "becomeAseller": "كن بائعًا"
   }
 }
