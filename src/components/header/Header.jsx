@@ -7,7 +7,7 @@ import LanguageSwitcher from "../LanguageSwitcher";
 const Header = () => {
   const t = useTranslations("Header");
   return (
-    <div className="w-full flex flex-col gap-4 py-7">
+    <header className="w-full flex flex-col gap-4 py-7 mb-[50px]">
       <div className="w-full max-w-[1220px] px-4 mx-auto flex items-center justify-between">
         <Link href={"/"}>
           <Image
@@ -89,7 +89,7 @@ const Header = () => {
           <LanguageSwitcher />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -2,11 +2,21 @@
   "Header": {
     "search": "جستجو کنید",
     "login": "ورود و ثبت نام",
-    "productCategories" : "دسته‌بندی محصولات",
-    "services" : "خدمات",
-    "customerGuide" : "راهنمای مشتریان",
-    "AboutBersa" : "درباره برسا",
-    "educationalMaterials" : "مطالب آموزشی",
-    "becomeAseller" : "فروشنده شوید"
+    "productCategories": "دسته‌بندی محصولات",
+    "services": "خدمات",
+    "customerGuide": "راهنمای مشتریان",
+    "AboutBersa": "درباره برسا",
+    "educationalMaterials": "مطالب آموزشی",
+    "becomeAseller": "فروشنده شوید"
+  },
+  "HomePage": {
+    "categories": "دسته‌بندی های",
+    "mostVisited": "پربازدید",
+    "wholesaleEggs": "تخم مرغ عمده",
+    "One-day-old-chick": "جوجه‌ یک روزه",
+    "typesOfPulletBreeds": "انواع نژاد پولت",
+    "poultryProducts": "محصولات طیوری",
+    "livestockProducts": "محصولات دامی",
+    "machineAndEquipment": "دستگاه و تجهیزات"
   }
 }

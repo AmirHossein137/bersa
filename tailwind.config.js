@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        Primary: "#532B07",
+        Secondary: "#D99206",
+      },
       backgroundImage: {
         primary:
           "radial-gradient(103.23% 445.95% at 50% 50%, #D99206 0%, #8C490C 100%)",

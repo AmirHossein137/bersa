@@ -8,5 +8,15 @@
     "AboutBersa": "About Bersa",
     "educationalMaterials": "Educational Materials",
     "becomeAseller": "Become A seller"
+  },
+  "HomePage": {
+    "categories": "categories",
+    "mostVisited": "Most visited",
+    "wholesaleEggs": "Wholesale Eggs",
+    "One-day-old-chick": "One-day-old Chick",
+    "typesOfPulletBreeds": "Types of Pullet Breeds",
+    "poultryProducts": "Poultry Products",
+    "livestockProducts": "Livestock Products",
+    "machineAndEquipment": "Machine and Equipment"
   }
 }
