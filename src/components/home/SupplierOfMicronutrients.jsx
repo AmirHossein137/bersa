@@ -4,7 +4,7 @@ import React from "react";
 
 const SupplierOfMicronutrients = () => {
   return (
-    <div className="flex flex-col gap-10 mb-10">
+    <div className="flex flex-col gap-10 mb-16">
       <div className="flex items-center flex-col justify-center">
         <span className="text-Primary text-xl font-semibold">
           شرکت بهین رشدساز آرین (برسا)

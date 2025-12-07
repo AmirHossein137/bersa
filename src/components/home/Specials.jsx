@@ -11,7 +11,7 @@ import "swiper/css";
 
 const Specials = () => {
   return (
-    <div className="flex items-center gap-5 overflow-hidden rounded-3xl bg-[#991029] relative mb-10">
+    <div className="flex items-center gap-5 overflow-hidden rounded-3xl bg-[#991029] relative mb-16">
       <div className="w-full grid grid-cols-12 gap-6 items-center">
         <div className="col-span-3 flex flex-col gap-6">
           <div className="flex flex-col gap-4 pt-6 pr-6">
