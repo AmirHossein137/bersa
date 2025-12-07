@@ -8,7 +8,7 @@ const CategoriesVsited = () => {
   const t = useTranslations("HomePage");
   const isFa = locale === "fa";
   return (
-    <div className="flex flex-col gap-7">
+    <div className="flex flex-col gap-7 mb-10">
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-1 font-semibold">
           <span className="text-Primary">
