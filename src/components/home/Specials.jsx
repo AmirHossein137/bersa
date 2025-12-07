@@ -1,10 +1,17 @@
+"use client";
+
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import Cart from "../modules/Cart";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+//assetss
+import "swiper/css";
 
 const Specials = () => {
   return (
-    <div className="flex items-center gap-5 overflow-hidden rounded-3xl bg-[#991029] relative mb-20">
+    <div className="flex items-center gap-5 overflow-hidden rounded-3xl bg-[#991029] relative mb-10">
       <div className="w-full grid grid-cols-12 gap-6 items-center">
         <div className="col-span-3 flex flex-col gap-6">
           <div className="flex flex-col gap-4 pt-6 pr-6">
@@ -18,9 +25,7 @@ const Specials = () => {
               style={{
                 background:
                   "radial-gradient(103.23% 445.95% at 50% 50%, #970F28 0%, #4F1820 100%)",
-                border: "1px solid",
-                borderImageSource:
-                  "radial-gradient(50% 50% at 50% 50%, #FBD0D0 0%, #F5B2B2 100%);",
+                border: "1px solid white",
               }}
             >
               <span>مشاهده همه</span>
@@ -33,11 +38,24 @@ const Specials = () => {
             </Link>
           </div>
           <div className="relative w-full h-[240px]">
-            <Image src={"/images/Poultry.png"} fill  alt="Poultry" />
+            <Image src={"/images/Poultry.png"} fill alt="Poultry" />
           </div>
         </div>
         <div className="col-span-9">
-              adsa
+          <Swiper slidesPerView={3.3} spaceBetween={20} className="mySwiper">
+            <SwiperSlide>
+              <Cart />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cart />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cart />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cart />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>
