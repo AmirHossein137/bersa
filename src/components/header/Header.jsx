@@ -32,10 +32,50 @@ const Header = () => {
             />
           </button>
         </div>
-        <div className="bg-shadowBtn p-[3px] rounded-[10px]">
+        <div className="bg-shadowBtn p-[3px] rounded-[10px] hidden">
           <button className="bg-primary px-8 py-3 text-xs text-white font-semibold rounded-[10px] w-full">
             {t("login")}
           </button>
+        </div>
+        <div>
+          <div className="flex gap-2 items-center">
+            <div className="bg-shadowBtn w-[40px] h-[40px] flex items-center justify-center rounded-[10px] transition-all duration-200 hover:-translate-y-1 relative">
+              <button className="bg-primary w-[36px] h-[36px] rounded-[10px] flex items-center justify-center">
+                <Image
+                  src={"/images/products.svg"}
+                  width={17}
+                  height={17}
+                  alt="Image"
+                />
+              </button>
+              <div className="absolute w-6 h-6 rounded-full flex items-center justify-center text-white text-xs bg-[#991029] top-[-9px] right-[-9px]">
+                2
+              </div>
+            </div>
+            <div className="bg-shadowBtn w-[40px] h-[40px] flex items-center justify-center rounded-[10px] transition-all duration-200 hover:-translate-y-1 relative">
+              <button className="bg-primary w-[36px] h-[36px] rounded-[10px] flex items-center justify-center">
+                <Image
+                  src={"/images/basket.svg"}
+                  width={17}
+                  height={17}
+                  alt="Image"
+                />
+              </button>
+              <div className="absolute w-6 h-6 rounded-full flex items-center justify-center text-white text-xs bg-[#D99206] top-[-9px] right-[-9px]">
+                2
+              </div>
+            </div>
+            <div className="bg-shadowBtn w-[40px] h-[40px] flex items-center justify-center rounded-[10px] transition-all duration-200 hover:-translate-y-1">
+              <button className="bg-primary w-[36px] h-[36px] rounded-[10px] flex items-center justify-center">
+                <Image
+                  src={"/images/user.svg"}
+                  width={17}
+                  height={17}
+                  alt="Image"
+                />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <div className="w-full bg-[#F0F0F0] h-[1px]"></div>

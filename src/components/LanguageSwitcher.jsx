@@ -27,22 +27,28 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      {languages.map((lang) => (
-        <button
-          key={lang.code}
-          onClick={() => handleLanguageChange(lang.code)}
-          disabled={isLoading}
-          className={`relative p-1 rounded-full transition-all disabled:opacity-50`}
-        >
-          <Image
-            src={lang.flag}
-            width={25}
-            height={25}
-            alt={lang.name}
-            className={`rounded-full`}
-          />
-        </button>
-      ))}
+      {languages.map((lang) => {
+        const isActive = locale === lang.code;
+        return (
+          <button
+            key={lang.code}
+            onClick={() => handleLanguageChange(lang.code)}
+            disabled={isLoading}
+            className={`relative p-1 rounded-full transition-all disabled:opacity-50`}
+          >
+            <Image
+              src={lang.flag}
+              width={25}
+              height={25}
+              alt={lang.name}
+              className={`
+                rounded-full transition-all
+                ${isActive ? "scale-125" : "grayscale opacity-70"}
+              `}
+            />
+          </button>
+        );
+      })}
     </div>
   );
 }
