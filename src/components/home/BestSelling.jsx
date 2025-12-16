@@ -3,11 +3,13 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Cart from "../modules/Cart";
 import Image from "next/image";
+
 //assets
 import "swiper/css";
 
-import Cart from "../modules/Cart";
+
 
 const BestSelling = () => {
   const swiperRef = useRef(null);

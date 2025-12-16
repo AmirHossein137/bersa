@@ -26,7 +26,7 @@ const CategoriesVsited = () => {
           className="flex flex-col items-center justify-center gap-3 p-5 bg-[#F8F8F8] rounded-3xl"
         >
           <Image
-            src={"/images/egg.png"}
+            src={"/images/egg.webp"}
             width={123}
             height={110}
             alt="egg"
@@ -49,7 +49,7 @@ const CategoriesVsited = () => {
           className="flex flex-col items-center justify-center gap-3 p-5 bg-[#F8F8F8] rounded-3xl"
         >
           <Image
-            src={"/images/One-day-old-chick.png"}
+            src={"/images/chicken.webp"}
             width={123}
             height={110}
             alt="egg"
@@ -72,7 +72,7 @@ const CategoriesVsited = () => {
           className="flex flex-col items-center justify-center gap-3 p-5 bg-[#F8F8F8] rounded-3xl"
         >
           <Image
-            src={"/images/Pullet-Breeds.png"}
+            src={"/images/hen.webp"}
             width={123}
             height={110}
             alt="egg"
@@ -95,7 +95,7 @@ const CategoriesVsited = () => {
           className="flex flex-col items-center justify-center gap-3 p-5 bg-[#F8F8F8] rounded-3xl"
         >
           <Image
-            src={"/images/Poultry-products.png"}
+            src={"/images/bag.webp"}
             width={123}
             height={110}
             alt="egg"
@@ -118,7 +118,7 @@ const CategoriesVsited = () => {
           className="flex flex-col items-center justify-center gap-3 p-5 bg-[#F8F8F8] rounded-3xl"
         >
           <Image
-            src={"/images/Livestock-products.png"}
+            src={"/images/cow.webp"}
             width={123}
             height={110}
             alt="egg"
@@ -141,7 +141,7 @@ const CategoriesVsited = () => {
           className="flex flex-col items-center justify-center gap-3 p-5 bg-[#F8F8F8] rounded-3xl"
         >
           <Image
-            src={"/images/Machine-and-equipment.png"}
+            src={"/images/equipments.webp"}
             width={123}
             height={110}
             alt="egg"

@@ -21,7 +21,7 @@ const SupplierOfMicronutrients = () => {
           <div className="grid grid-cols-12 gap-3 items-center">
             <div className="col-span-4">
               <Image
-                src={"/images/saleProduct.png"}
+                src={"/images/saleProduct.webp"}
                 width={138}
                 height={123}
                 alt="SaleProduct"
@@ -53,7 +53,7 @@ const SupplierOfMicronutrients = () => {
           <div className="grid grid-cols-12 gap-3 items-center">
             <div className="col-span-4">
               <Image
-                src={"/images/visiting-farm.png"}
+                src={"/images/visiting-farm.webp"}
                 width={123}
                 height={123}
                 alt="SaleProduct"
@@ -85,7 +85,7 @@ const SupplierOfMicronutrients = () => {
           <div className="grid grid-cols-12 gap-3 items-center">
             <div className="col-span-4">
               <Image
-                src={"/images/selling-units.png"}
+                src={"/images/selling-units.webp"}
                 width={138}
                 height={123}
                 alt="SaleProduct"
@@ -117,7 +117,7 @@ const SupplierOfMicronutrients = () => {
           <div className="grid grid-cols-12 gap-3 items-center">
             <div className="col-span-4">
               <Image
-                src={"/images/hen.png"}
+                src={"/images/service-04.webp"}
                 width={138}
                 height={123}
                 alt="SaleProduct"

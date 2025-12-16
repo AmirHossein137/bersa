@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -26,4 +26,38 @@ html[lang="en"] body {
   font-weight: normal;
   font-style: normal;
   line-height: 31px !important;
+}
+
+.right-arrow {
+  z-index: 20;
+  background-image: url("/Images/croper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: baseline;
+  align-items: inherit;
+  width: 22px;
+  height: 100px;
+  display: flex;
+  position: absolute !important;
+  top: 50% !important;
+  right: 0 !important;
+  transform: translateY(-50%) !important;
+}
+
+.left-arrow {
+  z-index: 20;
+  background-image: url("/Images/croper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: baseline;
+  align-items: inherit;
+  width: 22px;
+  height: 100px;
+  display: flex;
+  position: absolute !important;
+  top: 50% !important;
+  left: 0 !important;
+  transform: translateY(-50%) rotate(180deg) !important;
 }
