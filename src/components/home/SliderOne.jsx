@@ -2,11 +2,12 @@
 
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
+import Image from "next/image";
 
 //assets
 import "swiper/css";
-import Link from "next/link";
-import Image from "next/image";
+
 
 const SliderOne = () => {
   const swiperRef = useRef(null);
@@ -16,7 +17,7 @@ const SliderOne = () => {
   const totalSlides = 4;
   const totalSlidesMini = 4;
   return (
-    <div className="w-full grid grid-cols-12 gap-7 mb-16 ">
+    <div className="w-full grid grid-cols-12 gap-7 mb-16">
       <div className="col-span-9">
         <div className="relative w-full">
           <Swiper
@@ -31,7 +32,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Wide.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl"
                 />
@@ -42,7 +43,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Wide.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl"
                 />
@@ -53,7 +54,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Wide.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl"
                 />
@@ -64,7 +65,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Wide.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl"
                 />
@@ -120,7 +121,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Mini.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl w-full h-full"
                 />
@@ -131,7 +132,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Mini.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl w-full h-full"
                 />
@@ -142,7 +143,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Mini.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl w-full h-full"
                 />
@@ -153,7 +154,7 @@ const SliderOne = () => {
                 <Image
                   src={"/images/Slider-Mini.webp"}
                   width={1000}
-                  height={1000}
+                  height={355}
                   alt="Image"
                   className="rounded-2xl w-full h-full"
                 />
