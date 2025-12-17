@@ -1,4 +1,6 @@
+import AboutBersa from "@/components/home/AboutBersa";
 import BestSelling from "@/components/home/BestSelling";
+import Blogs from "@/components/home/Blogs";
 import CategoriesVsited from "@/components/home/CategoriesVsited";
 import Learning from "@/components/home/Learning";
 import NewProducts from "@/components/home/NewProducts";
@@ -18,6 +20,8 @@ export default function Home() {
       <SliderTwo />
       <NewProducts />
       <Learning />
+      <Blogs />
+      <AboutBersa />
     </>
   );
 }
